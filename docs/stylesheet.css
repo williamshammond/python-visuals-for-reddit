@@ -1,8 +1,304 @@
-body {
-  background-color: lightblue;
+body{
+   background-image: url("https://wallpapercave.com/wp/wp3442605.jpg");
+   background-size: 2000px;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+
+#pagehead{
+   font-size:400%;
+    font-family:cs_regular;
+    color: white;
+    text-align: center;
+}
+
+#onemenu{
+    font-size:270%;
+    height: 10%;
+    width: 12%;
+    background-color: black;
+    color: white;
+    clear:left;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+}
+
+#onemenu:hover{
+    font-size:275%;
+    height:12%;
+    width: 11%;
+    background-color: white;
+    color: black;
+    float:left;
+    clear:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#ononemenu{
+    font-size:270%;
+    height:10%;
+    width: 12%;
+    background-color: white;
+    color: black;
+    float:left;
+    clear:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#ononemenu:hover{
+    font-size:275%;
+    height:12%;
+    width: 12%;
+    background-color: white;
+    color: black;
+    float:left;
+    clear:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#hometown{
+    font-size:270%;
+    height:10%;
+    width: 21%;
+    background-color: black;
+    color: white;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#hometown:hover{
+    font-size:275%;
+    height:12%;
+    width: 21%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#onhometown{
+    font-size:270%;
+    height:10%;
+    width: 21%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#onhometown:hover{
+    font-size:275%;
+    height:12%;
+    width: 21%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#highschool{
+    font-size:270%;
+    height:10%;
+    width: 21%;
+    background-color: black;
+    color: white;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#highschool:hover{
+    font-size:275%;
+    height:12%;
+    width: 21%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#onhighschool{
+    font-size:270%;
+    height:10%;
+    width: 21%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#onhighschool:hover{
+    font-size:275%;
+    height:12%;
+    width: 21%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#basketball{
+    font-size:270%;
+    height:10%;
+    width: 20%;
+    background-color: black;
+    color: white;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#basketball:hover{
+    font-size:275%;
+    height:12%;
+    width: 20%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#onbasketball{
+    font-size:270%;
+    height:10%;
+    width: 20%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#onbasketball:hover{
+    font-size:275%;
+    height:12%;
+    width: 20%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#columbia{
+    font-size:270%;
+    height:10%;
+    width: 19%;
+    background-color: black;
+    color: white;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#columbia:hover{
+    font-size:275%;
+    height:12%;
+    width: 19%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#oncolumbia{
+    font-size:270%;
+    height:10%;
+    width: 19%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#oncolumbia:hover{
+    font-size:275%;
+    height:12%;
+    width: 19%;
+    background-color: white;
+    color: black;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#bottombanner{
+    font-size:100%;
+    height:25%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    float:center;
+    text-align:center;
+    margin-top:10px;
+}
+
+P.centertext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%
+}
+
+P {
+    text-align:center;
+    font-size:230%;
+    color:white;
+}
+
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:45%
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+      text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+      text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+      text-decoration: none;
 }
