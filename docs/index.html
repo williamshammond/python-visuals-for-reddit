@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>Visualizations for Reddit Home Page</title>
-</head>
-    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>  
 <body>
-    
-    
-    <div id="pagehead">
-        Data Visualizations for Reddit
-     </div>
-        <br> <br>
-    <div id='wrapper'></div>
-        <a href="ternary">
-        <div id="ternary">
-            Ternary Plot
+    <header>
+        <div class="main">
+            <div class="logos">  
+                <div class="python">  
+                    <img src = "pythonlogo.png">
+                </div> 
+                <h1>Python Visuals for Reddit</h1>
+                <div class="reddit">  
+                    <img src = "redditlogo.png">
+                </div>
+            </div>
+            <div class = "maintext">
+                   <div id="first">In this project, we used the Reddit API provided by reddit alongside the requests libary for Python
+                       extract relevant data from reddit.com regarding subreddit contents, post performance, and comment
+                       contents. We created CSV files of relevant data and generated pandas using the pandas libarary. 
+                   </div>
+                   <div class="github">
+                    <a href="https://github.com/williamshammond/reddit-visualizer">Project GitHub Repository</a>
+                   </div>
+                   <div id ="second">
+                    From our pandas we generated interactive data plots using the plotly Python library. Those plots, converted
+                    to html files, are available here for your persusal. Enjoy!
+                   </div>
+            </div>
+            <ul>
+                <li><a href="ternary">Hover to Preview Plot</a></li>
+                <li><a href="scatter">Hover to Preview Plot</a></li>
+            </ul>
+            <div class="bottombar">
+                <span><a href = "https://github.com/williamshammond">William Hammond - wsh2117@columbia.edu</a></span>
+                <span><a href = "https://github.com/sajjad2881">Sajjad Zafar - sz2881@columbia.edu</a></span>
+            </div>
         </div>
-        </a>
-        
-        <a href="scatter">
-        <div id="scatter">
-            Scatter Plot
-        </div>
-        </a>
-    </div>
-    
-    <br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br>
-    <br><br>
-    <div id="bottombanner"> 
-        William Hammond — wsh2117@columbia.edu &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Sajjad Zafar — sz2881@columbia.edu
-    </div>
-   
- 
-    </body>
-   
-   </script src ="script.js"></script>
-
+    </header>
+</body>
 </html>
