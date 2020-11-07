@@ -5,7 +5,7 @@
 }
 
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("https://williamshammond.github.io/docs/background2.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("docs/background2.jpg");
     height: 100vh;
     background-size:cover;
     background-position:center;
