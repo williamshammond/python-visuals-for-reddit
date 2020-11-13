@@ -15,7 +15,7 @@ header{
     position:absolute;
     width:55vw;
     height: auto;
-    top:47vh;
+    top:40vh;
     left:50vw;
     transform: translate(-50%,-50%);
 }
@@ -40,7 +40,7 @@ header{
 }
 #first{
     background-image: linear-gradient(to bottom right,rgba(248, 235, 118, 0.2),rgba(255, 255, 255, 0.2));
-    font-size: 1.5vw;
+    font-size: 2.5vmin;
     padding: 15px;
     border: 1px solid #FF5733;
     color: #306998;
@@ -50,9 +50,9 @@ header{
 
 #second{
     background-image: linear-gradient(to bottom right,rgba(248, 235, 118, 0.2),rgba(255, 255, 255, 0.2));
-    margin-top: 3vh;
+    margin-top: 3vmin;
     padding: 15px;
-    font-size: 1.5vw;
+    font-size: 2.5vmin;
     color: #306998;
     border: 1px solid #FF5733;
     font-family: "Segoe UI";
@@ -62,7 +62,7 @@ header{
 ul{
     text-align: center;
     position: absolute;
-    top: 80vh;
+    top: 70vh;
     left:50vw;
     width:100%;
     transform: translate(-50%,-50%);
