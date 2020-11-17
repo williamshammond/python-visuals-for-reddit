@@ -6,9 +6,10 @@
 
 header{
     background-color:#f8f8ff;
-    height: 100vh;
+    height: 1;
     background-size:cover;
     background-position:center;
+    overflow: scroll;
 }
 .maintext{
     text-align:center;
@@ -92,21 +93,6 @@ ul li a:hover{
     border: 0.1vh solid #FF5733;
 }
 
-.logos img{
-    float: left;
-    width: 10vmin;
-    height: auto;
-}
-
-.logos h1{
-    padding-top: 20px;
-    float: left;
-    font-size: 10vmin;
-    font-family: 'Optima';
-    text-decoration: none;
-    color: #FF5733;
-    padding: 0;
-}
 .logos{
     width: 100vw;
     justify-content: center;
@@ -116,6 +102,22 @@ ul li a:hover{
     top:7vh;
     left:50vw;
     transform: translate(-50%,-50%);
+}
+
+.logos img{
+    float: left;
+    width: 5%;
+    height: auto;
+}
+
+.logos span{
+    font-size: 5vw;
+    padding-top: 20px;
+    float: left;
+    font-family: 'Optima';
+    text-decoration: none;
+    color: #FF5733;
+    padding: 0;
 }
 
 .bottombar{
