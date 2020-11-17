@@ -4,6 +4,12 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.main{
+    position: relative;
+    padding: 10px;
+    height:120%;
+    min-height: 1200px;
+}
 header{
     background-color:#f8f8ff;
     height: 1;
@@ -14,10 +20,10 @@ header{
 .maintext{
     text-align:center;
     position:absolute;
-    width:55vw;
+    width:55%;
     height: auto;
-    top:40vh;
-    left:50vw;
+    top:30%;
+    left:50%;
     transform: translate(-50%,-50%);
 }
 
@@ -41,7 +47,8 @@ header{
 }
 #first{
     background-image: linear-gradient(to bottom right,rgba(248, 235, 118, 0.2),rgba(255, 255, 255, 0.2));
-    font-size: 2.5vmin;
+    font-size:calc(10px + 1vw);
+    font-size;
     padding: 15px;
     border: 1px solid #FF5733;
     color: #306998;
@@ -53,44 +60,61 @@ header{
     background-image: linear-gradient(to bottom right,rgba(248, 235, 118, 0.2),rgba(255, 255, 255, 0.2));
     margin-top: 3vmin;
     padding: 15px;
-    font-size: 2.5vmin;
+    font-size:calc(10px + 1vw);
     color: #306998;
     border: 1px solid #FF5733;
     font-family: "Segoe UI";
     font-weight: 100;
 }
 
-ul{
-    text-align: center;
-    position: absolute;
-    top: 70vh;
-    left:50vw;
-    width:100%;
-    transform: translate(-50%,-50%);
-    list-style-type: none;
-    margin-top: 5vh;
+.table100 {
+  background-color: #f8f8ff;
 }
 
-ul li{
-    padding:1vh;
+table {
+   width: 60%;
+   text-decoration: none;
+    color: #FF5733;
     text-align:center;
-    display: inline-block;
+    position:absolute;
+    top:46%;
+    left:50vw;
+    transform: translate(-50%,0);
 }
 
-ul li a{
+.column1{
+    width: 40%;
+}
+
+.column2{
+    width:30%;
+}
+
+table a{
     text-decoration: none;
     color: #FF5733;
     padding: 0.1vh;
-    border: 0.1vh solid #FF5733;
     transition:0.6s ease;
 }
 
-ul li a:hover{
+table a:hover{
     text-decoration: none;
     color: #FFF;
     background-color: #FF5733;
-    padding: 0.1vh;
-    border: 0.1vh solid #FF5733;
+}
+
+th {
+  font-weight: 10;
+  padding-right: 5%;
+  padding-left: 5%;
+  border: 0.1vh solid #FF5733;
+}
+
+td {
+  font-weight: unset;
+  padding-right: 5%;
+  padding-left: 5%;
+  border: 0.1vh solid #FF5733;
 }
 
 .logos{
@@ -124,11 +148,11 @@ ul li a:hover{
     text-align:center;
     position:absolute;
     width:90vw;
-    top:95vh;
+    top:10%;
     left:50vw;
     transform: translate(-50%,-50%);
     border: 0.1vh solid #FF5733;
-    font-size: 1.3vw;
+    font-size:calc(2px + 1vw);
 }
 
 .bottombar a{
