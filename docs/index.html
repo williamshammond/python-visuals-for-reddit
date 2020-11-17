@@ -13,34 +13,68 @@
                     <img src = "redditlogo.png">
             </div>
             <div class = "maintext">
-                   <div id="first">In this project, we used the Reddit API provided by reddit alongside the requests libary for Python
+                   <div id="first">We used the Reddit API provided by Reddit alongside the requests libary for Python
                        to extract relevant data from reddit.com regarding subreddit contents, post performance, and comment
-                       contents. We created CSV files of relevant data and generated pandas using the pandas libarary. 
+                       contents. We created CSV files of relevant data and generated pandas from that data using the pandas libarary. 
                    </div>
                    <div class="github">
                     <a href="https://github.com/williamshammond/reddit-visualizer">Project GitHub Repository</a>
                    </div>
                    <div id ="second">
-                    From our pandas we generated interactive data plots using the plotly Python library. Those plots, converted
-                    to html files, are available here for your persusal. They are currently listed with loose descriptions of the data that they represent, but updated hovertools to make for easier browsing should be coming soon!
+                    From our pandas we generated interactive data plots using the plotly Python library. Those data visualizations, converted
+                    to html files, are available here for your persusal below. Enjoy!
                    </div>
             </div>
-            <ul>
-                <li><a href="ternary">Ternary political post reception</a></li>
-                <li><a href="scatter">Comparative scatters r/politics and r/news</a></li>
-                <li><a href="Fig2">r/AskWomen</a></li>
-                <li><a href="Fig3">r/AskReddit</a></li>
-                <li><a href="Fig4">Comparing the r/Ask__ subreddits</a></li>
-                <li><a href="Fig5">r/AskReddit upvotes per month</a></li>
-                <li><a href="Fig6">r/AskReddit comments per month</a></li>
-                <li><a href="Fig7">Upvotes, comments, awards!</a></li>
-                <li><a href="Fig8">Cool r/AskReddit visualization</a></li>
-                <li><a href="Fig9">Similarly cool r/AskReddit visual</a></li>
-                <li><a href="Fig10">Upvotes by hour r/AskReddit</a></li>
-                <li><a href="Fig11">Comments by hour</a></li>
-                <li><a href="Fig13">Hours, comments, upvotes!</a></li>
-                <li><a href="Fig14">Crazy colored upvote ratios</a></li>
-            </ul>
+            <table>
+                <thead>
+                    <tr>
+                       <th class = "column1">Visualiation Description</th>
+                       <th class = "column2">Link</th>  
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class = "column1">This visualization plots the relative frequency of downvotes and comments relative to upvotes for popular post on r/news and r/politics. The posts are separated by their topic and cover some of the biggest news topics of the past year: Trump, Biden, COVID-19, racial justice protests, and the economy.</td>
+                        <td class = "column2"><a href="ternary">Ternary political post reception</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">This visualization compares similar data to the last, but gives a seperate visual representation of the r/news and r/politics subreddits. It also contains a violin plot of downvotes for each subreddit, giving an idea of how each respective sub responds to different topics.</td>
+                        <td class = "column2"><a href="scatter">Comparative scatters r/politics and r/news</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">Plot of the total upvotes and comments of popular posts across the 3 most popular r/Ask subredddits: r/AskReddit, r/AskMen, and r/AskWomen</td>
+                        <td class = "column2"><a href="fig4">Comparing the r/Ask subreddits</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">This plot shows the relative comments and upvotes for popular posts witin r/AskReddit, and also shows how many awards were given to each post!</td>
+                        <td class = "column2"><a href="fig7">Upvotes, comments, awards!</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">This plot shows post reponse by month for the past year, and also represents post upvote ratios in a pretty cool looking way!</td>
+                        <td class = "column2"><a href="fig8">Cool r/AskReddit visualization</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">A relatively redundant and yet cool looking ternary plot of upvotes, comments, and downvotes on r/AskReddit</td>
+                        <td class = "column2"><a href="fig14">Crazy colored upvote ratios</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">This plot shows post reponse by month for the past year, and also represents post upvote ratios in a pretty cool looking way!</td>
+                        <td class = "column2"><a href="fig8">Ternary political post reception</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">This plot shows the success of posts in terms of comments in the r/AskReddit subreddit by hour posted. It also shows the upvote success of each point by the size of the point that marks it.</td>
+                        <td class = "column2"><a href="fig13">Hours, comments, upvotes!</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">More coming very very soon!</td>
+                        <td class = "column2"><a href="index">Like today soon</a></td>
+                    </tr>
+                    
+                    
+                </tbody>
+
+            </table>
+            
             <div class="bottombar">
                 <span><a href = "https://github.com/williamshammond">William Hammond - wsh2117@columbia.edu</a></span>
                 <span><a href = "https://github.com/sajjad2881">Sajjad Zafar - sz2881@columbia.edu</a></span>
