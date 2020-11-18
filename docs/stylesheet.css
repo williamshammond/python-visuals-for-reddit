@@ -7,11 +7,11 @@
 .main{
     position: relative;
     padding: 10px;
-    height:120%;
+    height:120vh;
     min-height: 1200px;
 }
 header{
-    background-color:#f8f8ff;
+    background-image: linear-gradient(to bottom right,rgba(248, 235, 118, 0.3),rgba(255, 102, 0, 0.3));
     height: 1;
     background-size:cover;
     background-position:center;
@@ -50,7 +50,7 @@ header{
     font-size:calc(10px + 1vw);
     font-size;
     padding: 15px;
-    border: 1px solid #FF5733;
+    border: 1px solid #306998;
     color: #306998;
     font-family: "Segoe UI";
     font-weight: 100;
@@ -62,7 +62,7 @@ header{
     padding: 15px;
     font-size:calc(10px + 1vw);
     color: #306998;
-    border: 1px solid #FF5733;
+    border: 1px solid #306998;
     font-family: "Segoe UI";
     font-weight: 100;
 }
