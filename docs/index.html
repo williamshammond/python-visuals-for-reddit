@@ -13,62 +13,73 @@
                     <img src = "redditlogo.png">
             </div>
             <div class = "maintext">
-                   <div id="first">We used the Reddit API provided by Reddit alongside the requests libary for Python
-                       to extract relevant data from reddit.com regarding subreddit contents, post performance, and comment
-                       contents. We created CSV files of relevant data and generated pandas from that data using the pandas libarary. 
+                   <div id="first">These visual were made with data accessed using the Reddit API alongside the requests libary for Python. We created CSV files of relevant data and generated panda dataframes from that data using the pandas libarary. If you'd like to see some of the code that we used to access and organize this data, please check out our GitHub respository linked below!
                    </div>
                    <div class="github">
                     <a href="https://github.com/williamshammond/reddit-visualizer">Project GitHub Repository</a>
                    </div>
                    <div id ="second">
-                    From our pandas we generated interactive data plots using the plotly Python library. Those data visualizations, converted to html files, are available here for your persusal below. Enjoy!
+                    From our panda dataframes, we generated interactive data plots using the plotly Python library. Those data visualizations, converted to html files, are available here for your persusal below. Enjoy!
                    </div>
             </div>
             <table>
                 <thead>
                     <tr>
-                       <th class = "column1">Visualiation Description</th>
-                       <th class = "column2">Link</th>  
+                       <th class = "column1">Description</th>
+                       <th class = "column2">Links</th>  
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class = "column1">This visualization plots the relative frequency of downvotes and comments relative to upvotes for popular post on r/news and r/politics. The posts are separated by their topic and cover some of the biggest news topics of the past year: Trump, Biden, COVID-19, racial justice protests, and the economy.</td>
-                        <td class = "column2"><a href="ternary">Ternary political post reception</a></td>
+                        <td class = "column1">Popularity of certain players in r/soccer.<br>
+                        How many mentions they recieved in the past year and how many upvotes their posts recieved. (The two map pretty dang closely!)</td>
+                        <td class = "column2"><a href="figA">Most mentioned players</a><br><br><a href="figB">Most upvoted players</a></td>
                     </tr>
                     <tr>
-                        <td class = "column1">This visualization compares similar data to the last, but gives a seperate visual representation of the r/news and r/politics subreddits. It also contains a violin plot of downvotes for each subreddit, giving an idea of how each respective sub responds to different topics.</td>
-                        <td class = "column2"><a href="scatter">Comparative scatters r/politics and r/news</a></td>
+                        <td class = "column1">Mapping the same popular soccer players, how were their upvotes and comments distributed across posts? Which players had massively popular posts and which had a multitude?</td>
+                        <td class = "column2"><a href="figC">Upvotes distributed across posts</a><br><br><a href="figD">Comments distributed across posts</a></td>
                     </tr>
                     <tr>
-                        <td class = "column1">Plot of the total upvotes and comments of popular posts across the 3 most popular r/Ask subredddits: r/AskReddit, r/AskMen, and r/AskWomen</td>
-                        <td class = "column2"><a href="fig4">Comparing the r/Ask subreddits</a></td>
+                        <td class = "column1">The most popular posts in r/soccer, mapped by upvotes and comments. The Manchester City ban post is in a league of its own (no pun intended).</td>
+                        <td class = "column2"><a href="figAC">r/soccer top posts</a></td>
                     </tr>
                     <tr>
-                        <td class = "column1">This plot shows the relative comments and upvotes for popular posts witin r/AskReddit, and also shows how many awards were given to each post!</td>
-                        <td class = "column2"><a href="fig7">Upvotes, comments, awards!</a></td>
+                        <td class = "column1">The success of posts in r/soccer across different time periods.<br>Best hours for getting comments.<br>Most upvote heavy months of the year.<br>Most commented months of the year.</td>
+                        <td class = "column2"><a href="figAC">Best hours for comments</a><br><br><a href="figAC">Upvotes by month</a><br><br><a href="figAC">Comments by month</a></td>
                     </tr>
                     <tr>
-                        <td class = "column1">This plot shows post reponse by month for the past year, and also represents post upvote ratios in a pretty cool looking way!</td>
-                        <td class = "column2"><a href="fig8">Cool r/AskReddit visualization</a></td>
+                        <td class = "column1">Relative frequency of downvotes and comments for popular post on r/news and r/politics based on topic of the post. <br><br>The first plots all of the posts together. The second compares the two subreddits.</td>
+                        <td class = "column2"><a href="ternary">Political post reception across r/news and r/politics</a><br><br><a href="scatter">Comparing the two subreddits</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">Frequency of upvotes and comments for posts in the 3 most popular r/Ask subredddits: r/AskReddit, r/AskMen, and r/AskWomen</td>
+                        <td class = "column2"><a href="fig3">r/AskReddit</a><br><br><a href="fig2">R/Askwomen</a><br><br><a href="fig3">r/Askmen</a><br><br><a href="fig4">Comparing all 3</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">Number of upvotes and and comments by month in r/AskReddit. Some individual posts dominate their peers in each month.</td>
+                        <td class = "column2"><a href="fig8">Upvotes by month r/AskReddit</a><br><br><a href="fig9">Comments by month r/Askreddit</a></td>
+                    </tr>
+                    <tr>
+                        <td class = "column1">Again looking at post response in r/Askreddit, this time looking for the optimal time of day to post. Both comment and upvote success displayed.</td>
+                        <td class = "column2"><a href="fig13">Best posting hour for r/Askreddit</a></td>
                     </tr>
                     <tr>
                         <td class = "column1">A relatively redundant and yet cool looking ternary plot of upvotes, comments, and downvotes on r/AskReddit</td>
                         <td class = "column2"><a href="fig14">Crazy colored upvote ratios</a></td>
                     </tr>
                     <tr>
-                        <td class = "column1">This plot shows post reponse by month for the past year, and also represents post upvote ratios in a pretty cool looking way!</td>
-                        <td class = "column2"><a href="fig8">Ternary political post reception</a></td>
+                        <td class = "column1">Activity and post performancein the Top 15 subreddits on Reddit.<br> A single scatter of successful posts across all 15. <br>A plot of how active each top subreddit is by total uvotes. <br> A look at how active these subreddits are in total by calendar month.</td>
+                        <td class = "column2"><a href="figAA">Succesful posts across top 15 subs</a><br><br><a href="figAB">The most active of the top 15</a><br><br><a href="figAD">Total activity of the top 15</a></td>
                     </tr>
                     <tr>
-                        <td class = "column1">This plot shows the success of posts in terms of comments in the r/AskReddit subreddit by hour posted. It also shows the upvote success of each point by the size of the point that marks it.</td>
-                        <td class = "column2"><a href="fig13">Hours, comments, upvotes!</a></td>
+                        <td class = "column1">Best time of day to post in the top 15 subreddits.</td>
+                        <td class = "column2"><a href="figAE">So you want a lot of upvotes?</a><br><br><a href="figAF">So you want a lot of comments?</a></td>
                     </tr>
                     <tr>
-                        <td class = "column1">More coming very very soon!</td>
-                        <td class = "column2"><a href="index">Like today soon</a></td>
+                        <td class = "column1">How did the introduction on free awards in August 2020 affect the number of awards that posts recieved? (Hint: Exactly what you think it would do)</td>
+                        <td class = "column2"><a href="figAC">Massive awards spike</a></td>
                     </tr>
-                    
+
                     
                 </tbody>
 
