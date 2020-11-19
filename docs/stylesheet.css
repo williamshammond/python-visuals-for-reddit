@@ -11,13 +11,13 @@
     background-image: linear-gradient(to right,rgba(248, 235, 118, 0.6),rgba(255, 102, 0, 0.6));
     position: relative;
     padding: 10px;
-    min-height: 1800px;
-    height:1.5vw;
+    min-height: 2400px;
 }
 header{
     height: 1;
     background-size:cover;
     background-position:center;
+    height:10vw;
 }
 .maintext{
     text-align:center;
@@ -83,12 +83,15 @@ table {
     top:33%;
     left:50%;
     transform: translate(-55%,0);
+     border-collapse:separate; 
+    border-spacing:5px;
 }
 
 .column1{
     width: 50%;
     background-color: #FF5733;
     color: #f8f8ff;
+    paddin
 }
 
 .column2{
@@ -119,8 +122,8 @@ th {
 
 td {
   font-weight: unset;
-  padding-right: 3%;
-  padding-left: 3%;
+  padding-right: 1%;
+  padding-left: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
   border: 0.1vh solid #FF5733;
